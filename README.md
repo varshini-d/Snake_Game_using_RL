@@ -13,6 +13,8 @@ There are 3 programs to check out in this project:
 		You can try the classic snake game here by using the arrow keys to move the snake
 	testTrainedAgents.py
 		Observe some of the best Snake Game agents trained with the genetic algorithm!
+	Experiments.py
+		To train Agents for all 3 algorithms (A2C, DQN and PPO) and 9 Reward Structures
 
 Dependecies:
 
@@ -37,22 +39,3 @@ Instructions:
 		Follow the menu prompts in the command prompt/terminal to select which snake 
 		you would like to observe, and then watch as the agent plays the game
 		in a new window.
-
-	trainGeneticAlgorithm.py
-
-		Simply run the module to observe how the genetic algorithm was trained in action,
-		starting from randomized chromosomes. 
-		Specific information about each population is saved in Gadata.txt in the same 
-		folder as this program, and the file will be created if it does not already exist
-		after the first generation.
-		Also, for every 10 populations, the population is saved in a file 
-		in the populations directory.
-
-
-
-
-
-
-
-
-
